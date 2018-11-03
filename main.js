@@ -9,13 +9,14 @@ else {
     for (let i=2; i <= userNumber; i++) {
         let isSimple = true;
         for (let j=2; j < i; j++) {
-			if (i % j === 0) {
+		if (i % j === 0) {
                 isSimple = false;}
-            }
-        if (isSimple) {
-            arr.push(i);
-        }     
+    }
+    if (isSimple) {
+    arr.push(i);
+    }     
 };
+	
 console.info(arr);}
  
 
